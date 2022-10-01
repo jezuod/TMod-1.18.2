@@ -4,57 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a595fc0c-5e27-4bb4-9f8d-4741e6fc8cc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jezuod/tutorialmod/block/ModBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jezuod/tutorialmod/item/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/citrine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/ingot_steel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/models/item/raw_citrine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/citrine_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/citrine_ore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/deepslate_citrine_ore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/endstone_citrine_ore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/netherrack_citrine_ore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/block/raw_citrine_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/citrine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/food_salmon_fillet_cooked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/ingot_steel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/textures/item/raw_citrine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TutorialMod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TutorialMod.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TutorialMod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TutorialMod.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jezuod/tutorialmod/TutorialMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jezuod/tutorialmod/TutorialMod.java" afterDir="false" />
+    <list default="true" id="a595fc0c-5e27-4bb4-9f8d-4741e6fc8cc7" name="Changes" comment="Some items created">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664480445860</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some items created">
+      <created>1664619604672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664619604672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +149,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some items created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some items created" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
