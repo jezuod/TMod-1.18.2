@@ -1,5 +1,6 @@
 package com.jezuod.tutorialmod;
 
+import com.jezuod.tutorialmod.block.ModBlocks;
 import com.jezuod.tutorialmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -34,6 +35,7 @@ public class TutorialMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
