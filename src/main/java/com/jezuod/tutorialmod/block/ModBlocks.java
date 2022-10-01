@@ -1,11 +1,13 @@
 package com.jezuod.tutorialmod.block;
 
 import com.jezuod.tutorialmod.TutorialMod;
+import com.jezuod.tutorialmod.item.ModCreativeModeTab;
 import com.jezuod.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,12 +21,14 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(7f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()),ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()),ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()),ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()),ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",()-> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(1.5f, 6.0f)),ModCreativeModeTab.TUTORIAL_TAB);
+
+
 
 
 
