@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a595fc0c-5e27-4bb4-9f8d-4741e6fc8cc7" name="Changes" comment="New Creative Tab">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/recipes/citrine_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/recipes/citrine_from_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/recipes/citrine_ingot_from_smelting_copper_ore.json" afterDir="false" />
+    <list default="true" id="a595fc0c-5e27-4bb4-9f8d-4741e6fc8cc7" name="Changes" comment="Recipes">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_stone_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/loot_tables/blocks/citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tutorialmod/loot_tables/blocks/citrine_ore.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/DIM1/data/raids_end.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/entities/r.0.0.mca" afterDir="false" />
@@ -28,6 +35,7 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test 1/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test 1/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jezuod/tutorialmod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jezuod/tutorialmod/block/ModBlocks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +102,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/vaxdi/OneDrive/Documentos/Modding Minecraft/1.18.2/TutorialMod/src/main/java/com",
-    "last_opened_file_path": "C:/Users/vaxdi/OneDrive/Documentos/Modding Minecraft/1.18.2/TutorialMod/src/main/resources/data/tutorialmod/recipes",
+    "last_opened_file_path": "C:/Users/vaxdi/OneDrive/Documentos/Modding Minecraft/1.18.2/TutorialMod/src/main/resources/data/minecraft/tags/blocks",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -103,13 +111,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\data\minecraft\tags\blocks" />
+      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\data\minecraft\tags\blocks\mineable" />
+      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\data\tutorialmod\loot_tables\blocks" />
       <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\data\tutorialmod\recipes" />
       <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\assets\tutorialmod\models\item" />
-      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\assets\tutorialmod\models\block" />
-      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\assets\tutorialmod\blockstates" />
-      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\assets\tutorialmod\textures\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\data\minecraft\tags\blocks\" />
+      <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\data\minecraft\tags\blocks\mineable" />
       <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\assets\tutorialmod\textures\block" />
       <recent name="C:\Users\vaxdi\OneDrive\Documentos\Modding Minecraft\1.18.2\TutorialMod\src\main\resources\assets\tutorialmod\textures" />
     </key>
@@ -179,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664630892822</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Recipes">
+      <created>1664632857267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664632857267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +215,8 @@
     <MESSAGE value="File missing in README.md" />
     <MESSAGE value="Blocks" />
     <MESSAGE value="New Creative Tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Creative Tab" />
+    <MESSAGE value="Recipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recipes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
